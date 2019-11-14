@@ -67,8 +67,8 @@
 				<img src="img/girlheader.png" class="header-menu-img"alt="Girl">
 				<nav class="menu">
 					<div class="menu-list">
-						<a href="#!" class="menu-link">о нас<br></a>
-						<a href="#!" class="menu-link">Наши услуги</a>
+						<a href="#about" class="menu-link">о нас<br></a>
+						<a href="#services" class="menu-link">Наши услуги</a>
 						<a href="#!" class="menu-link">Контакты</a> 						
 					</div>
 				</nav>
@@ -83,16 +83,18 @@
 				</p>
 		 	</div>
 		 		<div class="header-test-items">
-		 			<input type="text" placeholder="Ваше имя" class="header-input"> 
-		 			<input type="text" placeholder="Ваш e-mail"  class="header-input">
-		 			<input type="text" placeholder="Ваш телефон"  class="header-input">
+		 			<form action="">
+		 			<input type="text" placeholder="Ваше имя" required class="header-input"> 
+		 			<input type="email" placeholder="Ваш e-mail" required  class="header-input">
+		 			<input type="tel" pattern="" placeholder="Ваш телефон" required class="header-input">
 		 			<button class="test-button" name="test-button" type="submit">
 		 				Получить тест
 		 			</button>
+		 			  </form>
 		 		</div>
 		 	</div>  
 		</div> 
-		<div class="container-clients">
+		<div id="about" class="container-clients">
 			<h2 class="clients-title">
 				Провели более 5000 психологических консультаций<br>
 				и наши клиенты обрели психологическое здоровье и радость жизни
@@ -101,8 +103,8 @@
 	</div>
 </header>
 		<!-- section-client  -->
-	<section class="section-client" >
-		<div class="container-section-client">
+	<section   class="section-client" >
+		<div   class="container-section-client">
 			<div class="container section-client-item section-client-item-first">
 				<div class="section-client-container-imgs">
 					<img src="img/advantage1.jpg" class="section-clients-img" alt="Advantages">
@@ -146,8 +148,8 @@
 						<h1 class="section-clients-img-text card">Карты</h1>
 					</div> 
 				</div>
-				<div class="section-client-info"> 
-					<h3 class="section-client-title">Современные технологии психологической диагностики</h3>
+				<div  class="section-client-info"> 
+					<h3  class="section-client-title">Современные технологии психологической диагностики</h3>
 					<p class="section-client-text">
 						Для оказания качественного психологического консультирования мы используем метафорические ассоциативные карты (МАК), тестовые методики, анкетирование, собеседование для анализа личной ситуации, мотиваций, ложных убеждений, выбор здоровой концепции жизненных целей. Что позволяет предоставить Вам современную
 						и качественную психологическую поддержку.
@@ -164,7 +166,7 @@
 					Психологи центра строго придерживаются профессиональной этики и Вы получаете полную конфиденциальность Вашей личной информации. 		
 					</p> 
 			</div>
-			<div class="section-client-container-imgs">
+			<div   class="section-client-container-imgs">
 				<img src="img/advantage4.jpg" class="section-clients-img" alt="Advantages">
 				<div class="section-clients-img-last"> 
 					<h1 class="section-clients-img-text comfort ethics">Этика</h1>
@@ -190,7 +192,7 @@
 		<!-- section-assistance  -->
 	<section class="section-assistance">
 		<div class="container-section-assistance">
-			<div class="container-assistence">
+			<div id="services" class="container-assistence">
 				<h2 class="assistance-title">
 				 Для кого подходит психологическая<br>
 				консультация и какие задачи решает
@@ -388,8 +390,20 @@
 	 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
 	 		</script>
 	 		<script src="js/main.js"> 
-	 		 
 	 		</script>
+	 		 <script>
+	 		 	$('a[href^="#"]').click(function () {
+    //Сохраняем значение атрибута href в переменной:
+    var target = $(this).attr('href');
+     $('html, body').animate({  
+    scrollTop: $(target).offset().top - 50//можно вычесть высоту меню
+    }, 500);
+  // return false;
+});
+   //  --(Burger Menu)--
+    
+ 
+	 		 </script>
 	 	 
 </body>
 </html>
