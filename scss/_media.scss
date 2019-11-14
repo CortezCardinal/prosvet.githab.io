@@ -1,0 +1,266 @@
+@media (max-width: 1347px)
+{
+	.header-test
+	{
+		width: 100%!important;
+		margin-left:0!important;
+		.header-test-items
+		{
+			width: 100%!important;
+		}
+	}
+	.section-client-info,.section-assistance-info
+		{	 
+			padding-right:40px;
+			padding-left:40px;
+		}
+	.section-clients-img-text
+		{
+			font-size: 150px!important;
+		}
+	.container
+	{
+		width: 100%;
+	}
+
+}
+@media (max-width: 1178px)
+{
+	.header-title
+		{
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	.header-test-items
+		{
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+}
+@media (max-width: 990px)
+{
+	.clearfix
+		{
+			flex-wrap: wrap!important;
+			justify-content: center!important;
+	.header-logo-text
+		{
+			text-align: center!important;
+		}
+		}
+		.header-title-text,.header-title-paragraph
+		{
+			text-align: center!important;
+			width: 100%!important;
+		}
+		.header-advantages
+		{
+			width: 100%!important;
+		}
+}
+@media (max-width: 940px)
+{
+	.section-assistance
+		{
+			height: 5818px;
+		}
+	.assistance-button-first
+		{
+			margin-top: 15px!important;
+		}
+	.section-client-item-first,.section-assistance-item-first
+		{
+		 	flex-wrap: wrap;
+		}
+	 .section-client-item-last,.section-assistance-item-last 
+		 {
+		 	flex-wrap: wrap-reverse;
+		 }
+	.section-client-item,.section-assistance-item
+		 {
+		 	justify-content:center!important;
+			 	.section-client-title,
+				.section-client-text,
+				.section-assistance-title,
+				.section-assistance-text
+				 	{
+				 		padding-top:20px!important;
+				 		text-align: center!important;
+				 	}
+		 }
+	.section-clients-img
+		 {
+		 	padding-top:20px;
+		 }
+	.section-clients-img-first,.section-clients-img-last
+		 {
+		 	display:none;
+		 }
+	.assistance-button
+		 {
+		 	margin-left: 145px;
+		 }
+	.assistance-button-line-first,
+	.assistance-button-line-last,
+	.section-assistance-img-first,
+	.section-assistance-img-last
+		{
+			display: none!important;
+		}
+}
+@media(max-width: 800px)
+{
+	.header-title-text,.header-title-paragraph
+		{
+			margin-left:0!important;
+		}
+	.header-advantages
+		{
+			width: 100%;
+			flex-wrap:wrap;
+			justify-content:space-around!important;
+			width: 100%!important;
+		}
+}
+@media(max-width:767px)
+{
+	.header-advantages-items3 
+		{
+		    margin-left: 5px;
+		    margin-top: 20px;
+		}
+}
+@media(max-width: 526px)
+{
+	.header-advantages-items2 
+		{
+	    	margin-left: 0px!important;
+		}
+}
+@media(max-width: 684px)
+{
+	.header-test
+		{
+			height: 426px!important;
+		}
+	.header-test-title
+		{
+			text-align: center;
+		}
+}
+@media(max-width:578px)
+{
+	.header-test-items
+		{
+			justify-content:center!important;
+		}
+}
+@media(max-width: 518px)
+{
+	.logo-items
+		{
+			justify-content: center;
+			display: flex!important;
+	    	flex-wrap: wrap!important;
+		}
+	.header-contacts
+		{
+			flex-wrap: wrap;
+		    justify-content: center;
+		}
+	.assistance-button
+		{
+			width: 226px!important;
+			margin-left: 80px!important;
+		}
+	.header-title-paragraph
+		{
+			font-size: 40px!important;
+		}
+	.header-title-text
+		{
+			font-size: 16px!important;
+		}
+}
+@media(max-width:475px)
+{
+	.header-phone
+		{
+			padding-right:0!important;
+		}
+	.header-contacts
+		{
+			padding-top: 30px!important;
+		}
+	.button-header
+		{
+			margin-top:30px!important;
+		}
+	.section-clients-img,.section-assistance-img
+		{
+			width: 100%!important;
+			height: 100%!important;
+		}
+	.header-menu
+		{
+			flex-wrap: wrap;
+			justify-content:center;
+		}
+	.menu-list
+		{
+			text-align: center!important;
+		}
+	.header-test-text, .header-test-text-2 
+		{
+	    	font-size: 14px!important;
+	    }
+     .header-advantages-items
+	    {
+		    display: flex!important;
+		    flex-direction: column!important;
+		    justify-content: center!important;
+		    align-items: center!important;
+		    text-align: center!important;
+	    }
+}
+@media (max-width: 360px)
+{
+	.assistance-button 
+		{
+		    width: 198px !important;
+		    margin-left: 31px !important;
+	    }
+	.header-menu-img
+		{
+			width: 100%!important;
+		}
+	.assistance-img 
+		{
+	    	width: 40% !important;
+		}
+
+}
+@media (max-width: 350px)
+{
+.header-title-paragraph 
+	{
+	    font-size: 25px !important;
+	}
+.header-title-text
+	{
+		font-size: 14px!important;
+	}
+	.clients-title
+	{
+		font-size: 18px!important;
+	}
+.header-advantages-text
+	{
+		font-size: 10px;
+	}
+.section-client-info, .section-assistance-info 
+	{
+	    padding-right: 2px;
+	    padding-left: 2px;
+	}
+}

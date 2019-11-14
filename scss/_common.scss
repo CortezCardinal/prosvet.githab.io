@@ -1,0 +1,137 @@
+$mainttextcolor: #37204c;
+$header-advantages-text: #825447;
+$client-img-text: #f6fafc;
+@font-face {
+    font-family: p; 
+    src: url(../fonts/MuseoSansCyrl_1.otf); 
+   }
+   @font-face {
+    font-family: height; 
+    src: url(../fonts/MuseoSansCyrl_3.otf); 
+   }
+    @font-face {
+    font-family: h-one; 
+    src: url(../fonts/MuseoSansCyrl_2.otf);
+  
+   }
+body
+{
+
+	margin:0;
+	padding:0;
+ 
+}
+input,button 
+{
+	outline:none;
+	border:none;
+
+}
+h3,h4{
+	padding:0;
+	margin: 0;
+}
+ 
+.header
+	{
+	float: left;
+	background: url("../img/bg.jpg") no-repeat center top / cover ;
+	width: 100%;
+	display: flex;
+	}
+ .button-header
+ {
+	font-family:p;
+	font-size: 16px;
+	color: $mainttextcolor;
+ 
+ }
+.container
+	{
+		width: 1170px;
+		margin: 0 auto;
+	}
+ 
+h1, h2, span, p
+	{
+		 margin: 0;
+		 padding:0;
+		color: $mainttextcolor;
+	}
+ 
+a
+	{
+		text-decoration: none; 
+	}
+
+.header-phone
+	{ 
+		 
+		color: $mainttextcolor;
+		font-family: height;  
+		   
+	}
+.header-logo-text, 
+.header-input,.header-test-text,.header-test-text-2 ,
+ .section-client-text,
+ .section-assistance-points-item,
+ .section-assistance-text
+	{
+		font-family:p;
+		 
+	}
+.header-info
+{
+	.heter-title-paragraph
+	{
+		font-family: h-one;
+	}
+	.header-title-text
+	{
+		font-family:p;
+	}
+}
+.header-advantages-text
+{
+	font-family: height;
+	font-size: 18px;
+	color: $header-advantages-text;
+	width: 239px;
+}
+.menu-link
+{
+	font-family: height;
+	color:$mainttextcolor;
+	font-size: 14px;
+	  
+}
+.test-button, 
+.clients-title, 
+.section-client-title, 
+.section-assistance-title,
+ .section-assistance-points,
+ .assistance-title
+{
+ font-family: h-one;
+}
+.section-clients
+{
+	padding-top:60px;
+}
+.clients-title, .assistance-title
+{
+	text-align: center;
+	color:$mainttextcolor;
+}
+ 
+
+.section-clients-img-text
+{
+	color: $client-img-text;
+	 font-family: h-one;
+}
+ 
+
+
+
+
