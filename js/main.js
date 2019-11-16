@@ -1,3 +1,17 @@
+$(document).ready(function () 
+{
+	 		 	$('a[href^="#"]').click(function () {
+    //Сохраняем значение атрибута href в переменной:
+    var target = $(this).attr('href');
+     $('html, body').animate({  
+    scrollTop: $(target).offset().top - 50//можно вычесть высоту меню
+    }, 500);
+  // return false;
+});
+	 		 	});
+   //  --(Burger Menu)--
+
+
 var button = document.getElementById("button");
 	 		var button1 = document.getElementById("button1");
 	 	 

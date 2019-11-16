@@ -391,9 +391,13 @@
 	</section>
 	 	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
 	 		</script>
+	 		<script src="js/jquery-3.4.1.min.js">
+	 			</script>
 	 		<script src="js/main.js"> 
 	 		</script>
 	 		 <script>
+	 		 	$(document).ready(function () 
+{
 	 		 	$('a[href^="#"]').click(function () {
     //Сохраняем значение атрибута href в переменной:
     var target = $(this).attr('href');
@@ -402,6 +406,7 @@
     }, 500);
   // return false;
 });
+	 		 	});
    //  --(Burger Menu)--
     
  
